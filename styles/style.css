@@ -346,7 +346,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   margin-right: 10px;
 }
 .footer_li_no-dots {
-  list-style-type: none
+  list-style-type: none;
 }
 .footer_ul_reset-margin-left {
   margin-left: 0;
