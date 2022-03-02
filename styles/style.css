@@ -330,7 +330,7 @@
   flex-direction: column;
   margin: 0;
   margin-bottom: 18px;
-  list-style-type: none
+  list-style-type: none;
 }
 
 .footer__column-link {
