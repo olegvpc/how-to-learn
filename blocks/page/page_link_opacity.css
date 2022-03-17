@@ -1,7 +1,0 @@
-.page_link_opacity {
-  transition: opacity 1s;
-}
-
-.page_link_opacity:hover {
-  opacity: 0.5;
-}
