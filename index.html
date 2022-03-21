@@ -9,18 +9,18 @@
 <body>
   <div class="page">
     <header class="header">
-      <img class="page__logo page__logo_place_header" src="./images/logo/logo_place_header.svg" alt="логотип Яндекс">
+      <img class="logo logo_place_header" src="./images/logo/logo_place_header.svg" alt="логотип Яндекс">
       <h1 class="header__title">Научиться учиться</h1>
-      <div class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a class="header__link" href="#">Узнать &rarr;</a>
-      </div>
+      </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="картинка школьника">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
 
     </header>
     <main class="content">
-      <section class="description" aria-label="Секция со статьей">
-        <section class="two-columns" aria-label="Секция со статьей о проблемах с обучением">
+      <section class="description" aria-label="Секция со статьей о проблемах с обучением">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -38,7 +38,7 @@
               Эти же техники применяются на примере обучения в Практикуме.
             </p>
           </div> <!-- End main-text -->
-        </section> <!-- End section two-columns -->
+        </article> <!-- End article two-columns -->
       </section> <!-- End section discription -->
 
       <section class="techniques" aria-label="Техники обучения">
@@ -91,7 +91,7 @@
       </section> <!--End section video -->
 
       <section class="oakley" aria-label="Секция о Барбаре Оакли">
-        <section class="two-columns" aria-label="Секция со статьей о проблемах с обучением">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -102,13 +102,13 @@
               ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
             </p>
           </div> <!-- End main-text -->
-        </section> <!-- End section two-columns -->
+        </article> <!-- End article two-columns -->
       </section> <!-- End section oakley-->
 
       <section class="feynman" aria-label="Секция со ссылкой на метод Фейнмана">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link" href="#">Подробнее &rarr;</a>
+        <a class="feynman__link" href="#" target="_blank">Подробнее &rarr;</a>
         <img class="feynman__img" src="./images/feynman.png" alt="фото Фейнмана">
       </section> <!-- End section feynman -->
 
@@ -172,8 +172,8 @@
             образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят
             успех в школе, карьере и жизни.
           </blockquote>
-          <cite class="khan__quote-author">Джордж Лукас</cite>
-          <cite class="khan__quote-author-subline">Кинорежиссер, продюсер</cite>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка Книги Кхана">
             <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
@@ -238,17 +238,25 @@
           </li>
 
         </ul> <!-- End section table -->
-        <div class="kaufman__triangle" ></div>
+        <div class="kaufman__triangle rotation" ></div>
       </section> <!-- End section kaufman -->
 
       <section class="resources" aria-label="Полезные ресурсы">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <div class="resources__logo-zone">
+          <a class="resurses__logo_link" href="#" target="_blank">
             <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="лого арзамас">
+          </a>
+          <a class="resurses__logo_link" href="#" target="_blank">
             <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="лого эн плюс один">
+          </a>
+          <a class="resurses__logo_link" href="#" target="_blank">
             <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="лого стрелка">
+          </a>
+          <a class="resurses__logo_link" href="#" target="_blank">
             <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="лого полка">
+          </a>
         </div>
       </section> <!-- End section resources -->
     </main>
@@ -256,7 +264,7 @@
       <div class="footer__columns">
 
         <div class="footer__column footer__column_content_copyright">
-          <img class="page__logo page__logo_place_footer" src="./images/logo/logo_place_footer.svg" alt="логотип Яндекса на темном фоне">
+          <img class="logo logo_place_footer" src="./images/logo/logo_place_footer.svg" alt="логотип Яндекса на темном фоне">
           <p class="footer__author">&copy; 2019. Виктор Абанькин</p>
         </div>
 
