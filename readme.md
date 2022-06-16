@@ -1,6 +1,7 @@
 # Проектная работа №2
 
 ## Проект одностраничного блочного сайта
+https://olegvpc.github.io/how-to-learn/
 
 ***
 Все стили распределены по файлам в соответствии с документацией [БЭМ-Nested](https://ru.bem.info/methodology/filestructure/#nested)
